@@ -1,6 +1,5 @@
 .about {
   background-color: #0a2850;
-  height: 100vh;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -22,13 +21,18 @@
   max-width: 660px;
   padding-top: 119px;
   margin-right: 80px;
+  margin-bottom: 173px;
   display: flex;
   flex-direction: column;
   row-gap: 20px;
-  font-family: "Noto Serif";
+  font-family: Noto Serif, arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
+}
+
+.about__paragraph {
+  margin: 0;
 }
 
 .about__circle {

@@ -13,7 +13,7 @@
 .card__list-item {
   display: flex;
   margin-bottom: 16px;
-  font-family: "Noto Serif";
+  font-family: Noto Serif, arial, sans-serif;
 }
 
 .card__list-item:last-of-type {

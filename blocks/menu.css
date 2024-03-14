@@ -4,8 +4,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
-  min-height: 1200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,9 +21,10 @@
   max-width: 800px;
   margin-top: 24px;
   margin-bottom: 100px;
-  font-family: "Noto Serif";
+  font-family: Noto Serif, arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
+  font-weight: normal;
 }
 
 .menu__cards {

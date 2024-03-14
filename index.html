@@ -82,24 +82,16 @@
           alt="Inside The Coffee shop"
         />
         <div class="header__footer">
-          <p class="header__paragraph">Horario:</p>
-          <p class="header__paragraph">Lunes a Viernes (de 10:00 a 19:00)</p>
-          <p class="header__paragraph">
-            Sábado a Domingo (de 11:00 a
-            18:00)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;Avenida del Éxito 200, Ciudad Triple Peaks
-          </p>
+          <div class="header__footer-times">
+            <p class="header__paragraph">Horario:</p>
+            <p class="header__paragraph">Lunes a Viernes (de 10:00 a 19:00)</p>
+            <p class="header__paragraph">Sábado a Domingo (de 11:00 a 18:00)</p>
+          </div>
+          <div class="header__footer-adress">
+            <p class="header__paragraph">
+              Avenida del Éxito 200, Ciudad Triple Peaks
+            </p>
+          </div>
         </div>
       </header>
       <main class="content">
@@ -120,13 +112,10 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
-              <p class="recipes__video-caption">
-                Receta en Aeropress
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;~5min
-              </p>
+              <div class="recipes__video-caption">
+                <p class="recipes__video-caption-item">Receta en Aeropress</p>
+                <p class="recipes__video-caption-item">~5min</p>
+              </div>
             </div>
             <div class="video-item">
               <iframe
@@ -138,12 +127,12 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
-              <p class="recipes__video-caption">
-                Receta en cafetera francesa
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;~15min
-              </p>
+              <div class="recipes__video-caption">
+                <p class="recipes__video-caption-item">
+                  Receta en cafetera francesa
+                </p>
+                <p class="recipes__video-caption-item">~15min</p>
+              </div>
             </div>
           </div>
         </section>
@@ -203,7 +192,7 @@
                   id="aceptar"
                   required
                 />
-                <span class="form__label">Acepto los términos de uso</span>
+                <span class="form__label-item">Acepto los términos de uso</span>
               </label>
             </fieldset>
           </form>
@@ -340,7 +329,7 @@
             </ul>
           </div>
         </div>
-        <p class="footer__copyright">@ 2024 Lissette Peña</p>
+        <p class="footer__copyright">© 2024 Lissette Peña</p>
       </footer>
     </div>
   </body>
